@@ -1,0 +1,364 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+a :hover{ text-decoration: none;}
+
+li{ list-style: none;}
+
+
+/******************** header section starts *******************/ 
+
+.bgimg{
+    background-image: url('../Images/123.jpg');
+    background-color: rgba(0, 0, 100, 0.4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+}
+
+.bgimg .navbar{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.bgimg .navbar-name{
+    font-size: 25px;
+}
+.container h1{
+    margin-top: 40px;
+}
+.container .btn{
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 50px;
+    width: 140px;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.hearderset{
+    padding-top: 220px;
+    box-sizing: border-box;
+}
+
+.hearderset h2{
+    font-size: 42px;
+}
+
+.hearderset h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+
+/******************** header section ends *******************/ 
+
+
+/******************** ourservices section starts *******************/ 
+
+.ourservices{
+    background: antiquewhite;
+    padding: 60px 0px 50px ;
+    height: 650px;
+    width: 100%;
+}
+
+.ourservices h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ourservices p{
+    font-size: 20px;
+}
+
+.rowsetting{
+    margin: 80px 0px ;
+}
+
+.rowsetting p{
+    margin-left: 0;
+    color: rgb(129, 129, 129);
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-cart-arrow-down{
+    margin-top: 25px;
+}
+.fa-desktop{
+    margin-top: 25px;
+}
+.fa-globe{
+    margin-top: 25px;
+}
+
+/******************** ourservices section ends *******************/ 
+
+
+
+/******************** Portfolio section starts *******************/ 
+
+.portfolio{
+    height: 1150px;
+    width: 100%;
+    padding: 60px 0px 50px;
+}
+
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.portfolio img{
+    height: 300px;
+    width: 500px;
+}
+
+.card{
+    margin-top: 40px;
+}
+/******************** Portfolio section ends *******************/
+
+/******************** ourteam section starts *******************/
+
+.ourteam{
+    background: rgba(238, 238, 238, 0.904);
+    height: 650px;
+    padding: 60px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h3{
+    padding-top: 10px;
+    color: rgb(255, 145, 0);
+}
+.ourteam h1{
+    color: rgb(255, 145, 0);
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 50px;
+}
+
+.ourteam img{
+    width: 260px;
+    height: 260px;
+}
+
+/******************** ourteam section ends *******************/
+
+.footer{
+    background: #424242;
+    margin-top: 160px;
+    height: 230px;
+}
+
+.footer h6{
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+.footer h5{
+    line-height: 50px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+
+/******************** media section starts *******************/
+
+.mediabtn{
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 33%;
+}
+  
+.mediabtn a{
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #424242;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,.15),
+                -6px -6px 12px rgba(255,255,255,.1);
+    overflow: hidden;
+    font-size: 28px;
+    transition: .3s linear;
+    position: relative;
+  }
+  
+.mediabtn a:hover{
+    background-color: #424242;
+    transform: scale(1.3);
+    border-radius: 50%;
+  }
+  
+.mediabtn a i::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: 200% 200%;
+    background-position: 75% 75%;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background .5s linear;
+  }
+  
+.mediabtn a:hover i::before{
+    background-position: 0% 0%;
+  }
+  
+.mediabtn .fa-facebook-f::before{
+    background-image: linear-gradient(135deg,#1d54ca 50%,#cecece 50%);
+  }
+  
+.mediabtn .fa-twitter::before{
+    background-image: linear-gradient(135deg,#3094e6 50%,#cecece 50%);
+  }
+  
+.mediabtn .fa-instagram::before{
+    background-image: linear-gradient(135deg,#e213b5 50%,#cecece 50%);
+  }
+  
+.mediabtn .fa-youtube::before{
+    background-image: linear-gradient(135deg,#eb251e 50%,#cecece 50%);
+  }
+  
+.mediabtn .fa-linkedin-in::before{
+    background-image: linear-gradient(135deg,#0e1abb 50%,#cecece 50%);
+  }
+
+/******************** media section ends *******************/
+
+
+
+
+/******************** media query starts *******************/
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width:991px){
+    
+}
+
+@media(min-width: 575px) and (max-width:767px){
+    
+}
+
+@media(min-width: 480px) and (max-width:574px){
+
+}
+
+@media(max-width:479px){
+
+    .bgimg{
+        background-image: url('../Images/123.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 600px;
+        
+    }
+    .hearderset h2{
+        font-size: 22px;
+    } 
+    .hearderset h1{
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height: 1250px;
+    }
+    .portfolio{
+        height: 3000px;
+        width: 100%;
+        padding: 60px 0px 50px;
+    }
+    .ourteam{
+        background: rgba(230, 230, 230, 0.561);
+        height: 1300px;
+        padding: 100px 0px 60px;
+        width: 100%;
+    }
+    .ourteam img{
+        width: 200px;
+        height: 200px;
+    }
+    .mediabtn{
+        align-items: center;
+        padding-top: 8%;
+        padding-left: 8%;
+    }
+    .mediabtn a{
+        padding-top: 5px;
+        margin: 10px 10px ;
+        width: 40px;
+        height: 40px;
+        background-color: #424242;
+        display: inline-block;
+        border-radius: 8px;
+        box-shadow: 6px 6px 12px rgba(0,0,0,.15),
+                    -6px -6px 12px rgba(255,255,255,.1);
+        overflow: hidden;
+        font-size: 28px;
+        transition: .3s linear;
+        position: relative;
+      }
+      .mediabtn a i::before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-size: 200% 200%;
+        background-position: 75% 75%;
+        top: 0;
+        left: 0;
+        line-height: 40px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: background .5s linear;
+      }
+    .footer{
+        background: #363636;
+        margin-top: 100px;
+        height: 50px fit-content;
+    }
+    .footer h6{
+        padding-top: 20px;
+        line-height: 50px;
+    }
+}
+
+
+
+
+/******************** media query starts *******************/

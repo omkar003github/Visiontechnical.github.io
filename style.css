@@ -13,8 +13,6 @@ li{ list-style: none;}
 
 .bgimg{
     background-image: url('../Images/123.jpg');
-    background-color: rgba(0, 0, 100, 0.4);
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     width: 100%;

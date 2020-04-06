@@ -12,7 +12,7 @@ li{ list-style: none;}
 /******************** header section starts *******************/ 
 
 .bgimg{
-    background-image: url('../Images/123.jpg');
+    background-image: url('Images/123.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
     width: 100%;
